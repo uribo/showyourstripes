@@ -1,11 +1,16 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# showyourstripes in Japan
+# \#ShowYourStripes in Japan
 
-Data: [Japan Meteorological Agency](http://www.jma.go.jp/jma/index.html)
-Stations: 47 (Representative observatory for the prefecture) Period:
-1876 to 2020
+[Ed Hawkins](https://twitter.com/ed_hawkins) さんの \#ShowYourStripes
+プロジェクト <https://showyourstripes.info> を
+日本の気象庁データを使って表現したものです。
+
+-   Data: [Japan Meteorological
+    Agency](http://www.jma.go.jp/jma/index.html)
+-   Stations: 47 (Representative observatory for the prefecture)
+-   Period: 1876 to 2020
 
 ``` r
 library(dplyr)
