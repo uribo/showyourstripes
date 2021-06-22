@@ -31,6 +31,12 @@ R code
 </summary>
 
 ``` r
+df_temperature <- 
+  df_temperature %>% 
+  mutate(station_name = if_else(station_name == "津",
+                                 "津 ",
+                                 station_name))
+
 df_temperature$block_no %>%
   unique() %>%
   purrr::walk(
